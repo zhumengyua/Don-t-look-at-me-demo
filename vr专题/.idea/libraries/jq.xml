@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jq" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="jQuery" />
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/Desktop/jquery.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/jquery.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
