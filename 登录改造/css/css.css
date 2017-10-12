@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+
+ul {
+    list-style-type: none;
+    color: #666666;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+/*---------- 清除浮动 -----------*/
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*-----------结束------------*/
+.top {
+    background: white center top;
+    width: 100%;
+    min-width: 990px;
+    height: 90px;
+}
+
+.topCon {
+    width: 990px;
+    margin: 0 auto;
+    height: 550px;
+}
+
+.topCon2 {
+}
+
+.topCon2 img {
+    margin-top: 15px;
+}
+
+.body {
+    width: 100%;
+    min-width: 990px;
+    height: 550px;
+    background: url("../images/body.jpg") no-repeat center top;
+
+}
+
+.bodyCon {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.bodyRight {
+    width: 352px;
+    height: 370px;
+    float: right;
+    background: white;
+    margin-top: 7%;
+}
+
+.bodyLeft li {
+    width: 175px;
+    height: 56px;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 56px;
+    border-bottom: 1px #eeeeee solid;
+    border-left: 1px #eeeeee solid;
+    float: left;
+    text-align: center;
+}
+
+.bodyLeft ul li a:hover {
+    color: #ff6900;
+    cursor: pointer;
+}
+
+#load_0 {
+    width: 310px;
+    height: 264px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text1, .text2 {
+    width: 260px;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #eeeeee;
+    padding-left: 44px;
+    margin-top: 20px;
+    outline: none;
+}
+
+.text1 {
+    background: url("../images/ico (1).png") no-repeat left;
+}
+
+.text2 {
+    background: url("../images/ico (2).png") no-repeat left;
+
+}
+
+.text3 {
+    width: 290px;
+    padding: 20px 0 35px 0;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #a1a1a1;
+    line-height: 20px;
+}
+
+.text3 a {
+    color: #666666;
+    float: right;
+}
+
+.text3 a:hover {
+    color: #ff6900;
+    text-decoration: underline;
+}
+
+.text3 span {
+    float: left;
+}
+
+.button {
+    width: 310px;
+    height: 40px;
+    background-color: #ff6900;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff9000;
+}
+
+.button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bottom {
+    width: 350px;
+    height: 50px;
+    border-top: 1px #eeeeee solid;
+    text-align: right;
+    line-height: 50px;;
+}
+
+.bottomCon {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.bottomCon a {
+    color: #ff6900;
+}
+
+.bottomCon a:hover {
+    text-decoration: underline;
+}
+
+#load_1 {
+    width: 310px;
+    margin: 0 auto;
+    margin-top: 57px;
+    display: none;
+}
+
+#load_1 p {
+    text-align: center;
+    width: 310px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#load_1 p a {
+    color: #666666;
+    cursor: pointer;
+}
+
+#load_1 a:hover p {
+    color: #ff6900;
+}
+
+#load_1 a:hover div {
+    border: 1px solid #ff6900;
+}
+
+.pig {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: #666666 1px solid;
+    background: url("../images/pig.png") no-repeat center;
+    margin: 0 auto;
+}
+
+#load_3:hover {
+    color: #ff6900;
+    text-decoration: underline;
+}
+
+.close {
+    width: 304px;
+    height: 33px;
+    background-color: #fef3f2;
+    position: absolute;
+    border: 1px solid red;
+    z-index: 10;
+    font-size: 14px;
+    color: red;
+    line-height: 33px;
+}
+
+.close img {
+    padding-left: 10px;
+    width: auto;
+    height: 15px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.close a {
+    color: red;
+    padding-left: 10px;
+}
+
+.over {
+    color: #ff6900;
+}
+
+.over a {
+    color: #ff6900;
+}
+
+.bottom_2 {
+    width: 100%;
+    min-width: 990px;
+    background-color: #FFFFFF;
+    height: 200px;
+}
+
+.bottom_2Con {
+    width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #a9a9a9;
+    line-height: 200px;;
+}
+

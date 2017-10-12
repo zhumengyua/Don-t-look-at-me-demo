@@ -1,0 +1,190 @@
+/* CSS Document */
+@charset "utf-8";
+body {
+    font-family: "Microsoft Yahei";
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+a, img, input {
+    outline: none;
+}
+
+.w-100 {
+    width: 100%;
+    min-width: 990px;
+}
+
+/*------------------ clear op ------------------*/
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+/*------------------ clear ed ------------------*/
+.main {
+}
+
+.past3 {
+    float: left;
+}
+
+.p3_ms {
+    width: 600px;
+    height: 380px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.p3_ms li {
+    float: left;
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.p3_ms li > p {
+    padding: 8px 0 8px 8px;
+    font-size: 14px;
+    color: #333;
+    display: block;
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.p3_ms li > p span {
+    color: #ff9000;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.p3_ms li div {
+    padding: 0 0 8px 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+.p3_ms li div span {
+    float: left;
+    color: #666;
+}
+
+.p3_ms li div i {
+    float: right;
+    font-style: normal;
+    color: #666;
+}
+
+.p4-ms {
+    position: relative;
+    width: 300px;
+    border: 1px solid #eee;
+    border-left: none;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.p2-ms-img {
+    background: url("../images/img_8.jpg") no-repeat;
+    width: 291px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 5px;
+    padding-bottom: 20px;
+}
+
+.p2-ms-img p {
+    margin: 0 auto 47px;
+    width: 251px;
+    padding-top: 71px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 28px;
+}
+
+
+.p2-ms-img h1,.p2-ms-img h2 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.p2-ms-img h2 {
+     font-size: 16px;
+ }
+
+.button-02 {
+    margin:70px auto 0;
+    width: 262px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.button-02:hover {
+    background-color: #037bd3;
+}
+
+.button-02 a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    color: #ffffff;
+}
+
+.footer {
+    width: 990px;
+    height: auto;
+}
+
+.footer > p, .footer > span {
+    margin: 40px 0 10px 0;
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+    float: left;
+}
+
+.footer > p {
+    margin-right: 60px;
+    margin-bottom: 40px;
+    width: 450px;
+
+}
+
+.footer > span {
+    vertical-align: bottom;
+}
+
+.footer > span > a {
+    margin-left: 10px;
+    font-size: 14px;
+    margin-right: 60px;
+}
+
+.footer > img {
+    margin-top: 40px;
+}
+
