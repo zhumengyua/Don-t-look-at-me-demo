@@ -5,97 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>米卡的小简历~</title>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrapper {}
+
+        .suggestion {
+            display: none;
+        }
+
+        .inputWrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .floatDiv {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .inputWrapper {
+            float: left;
+        }
+
+        .inputWrapper+button {
+            float: left;
+        }
+
+        .inputWrapper input[type=text] {
+            border: 1px solid #b8b8b8;
+            width: 540px;
+            height: 35px;
+            padding-left: 8px;
+            font-size: 15px;
+        }
+
+        .inputWrapper input[type=text]:focus {
+            outline: none;
+            border-color: 
+        }
+    </style>
 </head>
 
 <body>
-    <div class="top-Nav-Bar">
-        <img src="#" alt="logo" />
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-                <li>
-                    <a href="#">联系我</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="wrapper">
+        <span class="inputWrapper">
+            <input type="text">
+            <span class="floatDiv">
+                <svg></svg>
+                <span class="splitLine"></span>
+                <button>y</button>
+            </span>
+        </span>
+        <button>百度一下</button>
+        <ul class="suggestion">
+            <li>选项1</li>
+            <li>选项2</li>
+            <li>选项3</li>
+            <li>选项4</li>
+        </ul>
     </div>
-    <div class="banner" style="backgroud-imge:url(#)"> </div>
-    <main>
-        <div class="card">
-            <div class="picture">
-                <img src="" alt="头像">
-            </div>
-            <div class="texr">
-                <div class="profile">
-                    <span class="welcome">hellp</span>
-                    <h1>小米卡</h1>
-                    <p>前端开发工程师</p>
-                    <hr> description list
-                    <dl>
-                        <!-- description term -->
-                        <dt>年龄</dt>
-                        <!-- description definition -->
-                        <dd>18</dd>
-                        <dt>所在城市</dt>
-                        <dd>杭州</dd>
-                        <dt>邮箱</dt>
-                        <dd>892244044@qq.com</dd>
-                        <dt>手机号</dt>
-                        <dd>15258805933</dd>
-                    </dl>
-                </div>
-            </div>
-            <footer class="media">
-                <a href="#">
-                    <img src="#" alt="...">
-                </a>
-                <a href="#">
-                    <img src="#" alt="...">
-                </a>
-                <a href="#">
-                    <img src="#" alt="...">
-                </a>
-                <a href="#">
-                    <img src="#" alt="...">
-                </a>
-                <a href="#">
-                    <img src="#" alt="...">
-                </a>
-                <a href="#">
-                    <img src="#" alt="...">
-                </a>
-                <a href="#">
-                    <img src="#" alt="...">
-                </a>
-            </footer>
-        </div>
-        </div>
-        <a href="#" class="button">下载 简历 pfg</a>
-        <p>祝可爱卡卡卡卡卡阿卡
-            <br> 卡卡卡卡卡卡卡卡卡阿卡卡
-        </p>
-    </main>
+
 </body>
 
 </html>
