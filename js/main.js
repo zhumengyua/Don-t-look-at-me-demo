@@ -12,7 +12,7 @@
              window.clearInterval(id) 
              fn&&fn.call()
             }
-        },20)
+        },15)
     }
     let code=`
     /*
